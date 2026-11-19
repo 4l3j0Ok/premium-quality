@@ -23,7 +23,7 @@ services:
       - static-data:/app/static/data
 
   nginx:
-    image: nginx:1.29-alpine
+    image: nginx:1.30.7-alpine
     container_name: instituto-concesionaria-nginx
     env_file:
       - ./config/nginx/.env
